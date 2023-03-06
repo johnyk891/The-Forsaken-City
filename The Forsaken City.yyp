@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -33,12 +33,16 @@
     "IDEVersion": "2023.2.0.71",
   },
   "resources": [
+    {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},},
     {"id":{"name":"Room_Test_M","path":"rooms/Room_Test_M/Room_Test_M.yy",},},
+    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
+    {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
+    {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
     {"id":{"name":"Room_Test_I","path":"rooms/Room_Test_I/Room_Test_I.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_Test_I","path":"rooms/Room_Test_I/Room_Test_I.yy",},},
     {"roomId":{"name":"Room_Test_M","path":"rooms/Room_Test_M/Room_Test_M.yy",},},
+    {"roomId":{"name":"Room_Test_I","path":"rooms/Room_Test_I/Room_Test_I.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
